@@ -1,0 +1,12 @@
+(UML - Unified Modeling Language)
+
+Diagrama de classes 
+ - Nome da classe 
+ - Atributos
+ - Métodos
+
+ Use Case Diagram, Sequence Diagram, and Activity Diagrams. 
+
+S.O.L.I.D
+
+Normalização (Banco de dados)
