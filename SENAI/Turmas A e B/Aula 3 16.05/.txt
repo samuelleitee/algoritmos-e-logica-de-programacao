@@ -1,0 +1,4 @@
+Diagrama de classes (UML - Unified Modeling Language)
+ - Nome da classe 
+ - Atributos
+ - Métodos
