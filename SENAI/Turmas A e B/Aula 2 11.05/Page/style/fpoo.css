@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&family=Russo+One&display=swap');
+
+* {
+    margin: none;
+    font-family:'Quicksand', sans-serif ;
+}
+
+body{
+    margin: 0;
+    background-color: e8f1f2;
+}
+
+header{
+    margin: 0;
+    color: #e8f1f2;
+    background-color: #13293d;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+main{
+    margin-top: 10px;
+    margin-left: none;
+}
+
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    padding: 0 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgba(36, 123, 160, 0.5);
+    font-size: large;
+    font-weight: bold;
+    list-style: none;
+}

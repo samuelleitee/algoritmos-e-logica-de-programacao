@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&family=Russo+One&display=swap');
+/* font-family: 'Quicksand', sans-serif */
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #13293D;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #13293D;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E8F1F2;
+    margin: 0 15px;
+}
+
+.logoText{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #E8F1F2;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+ul li a{
+    font-family: 'Quicksand', sans-serif;
+    color: #E8F1F2;
+    cursor: pointer;
+    padding: 3px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid #E8F1F2;
+}
+
+/* Main Content */
+
+main {
+    font-family: 'Quicksand', sans-serif
+}
+
+.main {
+    background-color: #13293D;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Nome dos estudantes */
+.alunos {
+    margin-top: 75px;
+    margin-left: 90px;
+    color: #E8F1F2;
+}
+
+.logoSenai {
+    margin-top: 60px;
+    margin-left: 75px;
+}
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+    margin-right: 90px;
+    margin-top: 75px;
+}
+
+.cards h4, .cards h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin: 3px 20px;
+}
+
+.htmlCssCard {
+    background-color: #E8F1F2;
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(232, 241, 242, 0.5);
+}
+
+.fronEndImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pythonCard {
+    background-color: #E8F1F2;
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(232, 241, 242, 0.5);
+}
+
+.pythonImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    padding: 5px;
+    width: 35%;
+    border-radius: 10px;
+    background-color: #13293D;
+    color: #E8F1F2;
+    border: none;
+}
+
+.button button:hover {
+    background-color: #1c4063;
+}
+
+.button button a {
+    text-decoration: none;
+    color: #E8F1F2;
+}
