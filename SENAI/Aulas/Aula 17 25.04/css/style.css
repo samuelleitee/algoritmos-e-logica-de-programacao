@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 20px;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+#check, #resultado{
+    display: flex;
+    flex-direction: column;
+}
+
+#check button resultado {
+    margin-top: 10px;
+} 
+
+textarea {
+    width: 350px;
+    resize: none; /*Não permite o redimensionamento da <textarea>*/
+}

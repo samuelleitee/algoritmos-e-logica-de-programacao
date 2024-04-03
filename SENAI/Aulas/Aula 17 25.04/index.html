@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Gerador de senhas</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Gerador de senhas</h1>
+        </header>
+
+        <main>
+            <div id="campo">
+                <label for="passwordLength">Número de caracteres da senha:</label><br>
+                <input type="number" id="passwordLength" min="1"><br>
+
+                <label for="passwordNumber">Número de senhas a serem geradas:</label><br>
+                <input type="number" id="passwordNumber" min="1">
+            </div>
+
+            <div id="check">
+                <label>
+                    <input type="checkbox" id="caracteresEspeciais">Incluir caracteres especiais - !@#$%&*()?
+                </label>
+
+                <label>
+                    <input type="checkbox" id="numeros">Incluir números - 0123456789
+                </label>
+
+                <label>
+                    <input type="checkbox" id="letrasMaiusculas">Incluir letras maiúsculas - ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                </label>
+            </div>
+
+            <div id="botoes">
+                <button onclick="passwordGenerate()">Gerar senha</button>
+
+                <button onclick="clearPassword()">Limpar senha</button>
+            </div>
+
+            <div id="resultado">
+                <label for="result">Resultado:</label>
+                <textarea id="resposta" rows="6">Senha...</textarea>
+
+            </div>
+        </main>
+        
+        <script src="/js/script.js"></script>
+    </body>
+
+</html>
